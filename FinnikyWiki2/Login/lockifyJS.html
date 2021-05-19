@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>LockifyJS: A Client Side Login by flancast90 for FinnikyWiki</title>
+	<link rel="stylesheet" href="css/stylesheet.css">
+</head>
+<noscript>Please Enable Javascript to Use this Application</noscript>
+<body>
+	<img id="loading-scr" src="img/loading.gif" style="position:fixed; left:0px; top:0px; display:none; width:100%; height:100%; z-index:100;"/>
+<div style='display:none'>
+<p id='sha1'></p>
+<p id='sha2'></p>
+<p id='sha3'></p>
+<p id='sha4'></p>
+<p id='output'></p>
+</div>
+<div class='error' id='err-msg' style='display:none;'>Error message</div>
+
+<div id='greeting-background' style="background-color:#C4C4C4; text-align:center; z-index:10; width:100%; height:100%; left:0px; top:0px; bottom:0px; right:0px; position:fixed; display:none;">
+<h1 id='greeting' style="position:fixed; z-index:11; color:green;"></h1>
+</div>
+
+<p id='demo1'></p>
+<textarea type='text' id='gitScript' style="display:none"></textarea>
+
+<div style="width:98%; left:auto; right:auto;">
+<input type='text' id='uname' placeholder='Username'/><p></p>
+<center><input type='password' id='pass' placeholder='Password'/><br><br>
+<button type='button' id='submitit' style='cursor:pointer;' onclick='encrypt()'>Submit➡</button>
+<button type='button' id='create-btn' style='cursor:pointer;' onclick='generate()'>Make My Account➡</button>
+</center>
+<p id='create-acc' style='font-size:1em;'>Or... <u onclick='changetogen()' style='color:blue;cursor:pointer;'>Create Account</u></p>
+<p id='log-btn' style='font-size:1em; display:none;'>Already have an account? <u onclick='changetolog()' style='color:blue;cursor:pointer;'>Login</u></p>
+<input type='hidden' id='dataHidden' value/>
+<p style='font-size:0.5em;text-align:center;'>Copyright(©) flancast90 2021. All rights reserved</p>
+</div>
+
+</body>
+
+<script src='https://wiki.finnsoftware.net/FinnikyWiki2/Login/js/auth.js'></script>
+<script src='https://wiki.finnsoftware.net/FinnikyWiki2/Login/js/gitsaver.js'></script>
+<script src='https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js'></script>
+<script src='https://wiki.finnsoftware.net/FinnikyWiki2/Login/js/savedlogins.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.0.0/crypto-js.min.js'></script>
+</html>

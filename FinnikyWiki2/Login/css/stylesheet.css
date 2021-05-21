@@ -1,0 +1,88 @@
+body{
+background-color:white;
+}
+div{
+/*Center login container <div> on page*/
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+}
+#uname{
+background-color: #206ea7;
+    border: 2px solid #313131;
+    color: white;
+    border-radius: .5rem;
+    text-align: center;
+    font-size: 1em;
+    outline: none;
+    font-weight: bold;
+    height:2em;
+    width:100%;
+    mix-blend-mode:multiply;
+}
+#pass{
+background-color: #206ea7;
+    border: 2px solid #313131;
+    color: white;
+    border-radius: .5rem;
+    text-align: center;
+    font-size: 1em;
+    outline: none;
+    font-weight: bold;
+    height:2em;
+    width:100%;
+    mix-blend-mode:multiply;
+}
+#create{
+  border-radius: 2px;
+  padding-top:3px;
+  padding-bottom:3px;
+  width:60%;
+  background-color:white;
+  outline:0;
+  border:0;
+  color: #666;
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+  text-align: center;
+  width:100%;
+}
+
+		.error{
+			border: 1px solid;
+			margin: 10px 0px;
+			padding: 15px 10px 15px 50px;
+			background-repeat: no-repeat;
+			background-position: 10px center;
+            font-size:1em;
+		}
+.error{
+			color: #D8000C;
+			background-color: #FFBABA;
+			background-image: url('https://i.imgur.com/GnyDvKN.png');
+		}
+#submitit{
+   height:2em;
+   width:100%;
+   background-color:#206ea7;
+   outline:none;
+   border:0px;
+   font-size:1.1em;
+   color: #505050;
+   font-weight:bold;
+   border-radius:0.2em;
+    mix-blend-mode:multiply;
+}
+#create-btn{
+   display:none;
+   height:2em;
+   width:100%;
+   background-color:#222222;
+   outline:none;
+   border:0px;
+   font-size:1.1em;
+   color: #505050;
+   font-weight:bold;
+   border-radius:0.2em;;
+}

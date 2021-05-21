@@ -46,8 +46,11 @@ width:25%;
 height:90%;
 background-color: rgba(50,10,200,0.1) !important;
 z-index:3;
-overflow-y:scroll;
+overflow-y:hidden;
 text-align:center;
+}
+.sidebar:hover{
+    overflow-y:scroll;
 }
 .sidebar-text h1{
     color:#AAA;

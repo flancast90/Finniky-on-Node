@@ -26,6 +26,10 @@ node server.js
 
 **[Website](https://www.finnsoftware.net)**
 
+## Screenshots:
+![Finniky Home Page](https://i.imgur.com/8yRuJxF.png)
+
+
 ## To-Do:
 This is an (ever-growing) list of all my <del>burdens and failures</del> things that I (hope) to add to FinnikyWiki2 in the future:
   - Better Revision-History (for example, be able to restore, compare, etc) 

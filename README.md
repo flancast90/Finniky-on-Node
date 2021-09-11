@@ -34,8 +34,8 @@ node server.js
 This is an (ever-growing) list of all my <del>burdens and failures</del> things that I (hope) to add to FinnikyWiki2 in the future:
   - Better Revision-History (for example, be able to restore, compare, etc) 
   - SVG library for quick "click-and-go" messages or infographics
-  <del>- Page and User list (option for listing all *registered* users, and for displaying all pages in the wiki, linking back to the correct page)</del>
-  <del>- Better security. Finniky is in its early stages, and already there are several serious issues. I plan to fix these with AES encryption, as well as improve      upon hosting files (trust me, it's hard using only client-side JS & HTML as well as no *.htaccess* files).</del>
+  - ~~Page and User list (option for listing all *registered* users, and for displaying all pages in the wiki, linking back to the correct page)~~
+  - ~~Better security. Finniky is in its early stages, and already there are several serious issues. I plan to fix these with AES encryption, as well as improve      upon hosting files (trust me, it's hard using only client-side JS & HTML as well as no *.htaccess* files).~~
   - Add sponsor and star buttons to Wiki homepage (It'll help with college, hopefully!)
   - Have an idea? share it with me! <a href="mailto:flancast90@gmail.com">flancast90@gmail.com</a> or [open an issue](https://github.com/flancast90/Finniky-on-Node/issues/new)
 
